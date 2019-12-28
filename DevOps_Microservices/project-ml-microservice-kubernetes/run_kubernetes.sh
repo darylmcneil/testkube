@@ -18,5 +18,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose service daryl-py-app --port=8000 -target-port=5001 --name=dport
+kubectl expose service daryl-py-app --port=80 -target-port=8000 --name=dport
 

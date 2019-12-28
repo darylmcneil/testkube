@@ -11,7 +11,7 @@ dockerpath=cymba123/daryl-py-app
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker tag<image id number> $dockerpath:firsttry
+docker tag <image id number> $dockerpath:firsttry
 
 # Step 3:
 # Push image to a docker repository
