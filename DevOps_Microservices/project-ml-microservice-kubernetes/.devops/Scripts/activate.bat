@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\User\Documents\GitHub\testkube\DevOps_Microservices\project-ml-microservice-kubernetes\.devops"
+set "VIRTUAL_ENV=C:\Users\User\Documents\GitHub\testkube\Devops_Microservices\project-ml-microservice-kubernetes\.devops"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
