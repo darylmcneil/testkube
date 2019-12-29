@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/image tag>
-dockerpath=cymba123/daryl-py-app
+dockerpath=cymba123/daryl1-py-app
 
 # Step 2:  
 # Authenticate & tag
