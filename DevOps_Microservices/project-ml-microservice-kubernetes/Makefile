@@ -19,6 +19,10 @@ test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
+
+start-api:
+	#sets PYTHONPATH to directory above.
+	cd flask_app && PYTHONPATH=".." python app.py
 	
 validate-circleci:
 	circleci config process .circleci/config.yml
