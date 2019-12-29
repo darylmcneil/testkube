@@ -12,5 +12,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -it --rm -p 8000:5001 --name daryl-py-app my-container-app
+docker run -it --rm -p 8000:5001 --name daryl-py-app 
 
