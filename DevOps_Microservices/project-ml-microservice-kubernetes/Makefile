@@ -22,7 +22,7 @@ test:
 
 start-api:
 	#sets PYTHONPATH to directory above.
-	cd flask_app && PYTHONPATH=".." python app.py
+	cd app && PYTHONPATH=".." python app.py
 	
 validate-circleci:
 	circleci config process .circleci/config.yml
