@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://localhost:$PORT/apidocs/#/default/put_api__groupbyop
+     -X POST http://localhost:$PORT/predict
