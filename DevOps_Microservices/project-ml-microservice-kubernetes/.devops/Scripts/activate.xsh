@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"C:\Users\User\Documents\GitHub\testkube\Devops_Microservices\project-ml-microservice-kubernetes\.devops"
+$VIRTUAL_ENV = r"C:\Users\User\Documents\GitHub\testkube\DevOps_Microservices\project-ml-microservice-kubernetes\.devops"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
