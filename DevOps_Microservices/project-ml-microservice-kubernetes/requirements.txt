@@ -3,3 +3,7 @@ numpy
 pandas
 scikit-learn
 pylint
+flasgger
+Flask-API
+sensible
+nlib
