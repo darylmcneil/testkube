@@ -9,7 +9,8 @@ dockerpath=cymba123/daryl-py-app
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run daryl-py-app --image=daryl-py-app
+kubectl run daryl-py-app2 --image=$dockerpath --port=80
+docker login -u "cymba123" -p "!!Myproject5pp"
 
 
 # Step 3:
@@ -18,5 +19,6 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose service daryl-py-app --port=80 -target-port=8000 --name=dport
+kubectl expose deployment daryl-py-app2 --type=LoadBalancer --port=80 --target-port=8000 --name=dport1
+kubectl port-forward pod/mypod 8000:80
 
