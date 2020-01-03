@@ -6,13 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/image tag>
-dockerpath=cymba123/project5
+dockerpath=cymba123/daryl-py-app
 
 # Step 2:  
 # Authenticate & tag
 echo "cymba123/daryl-py-app: $dockerpath"
 docker login -u "cymba123" -p "!!Myproject5pp"
-docker tag 8d05ef407f9f $dockerpath:2.0
+docker tag 8d05ef407f9f $dockerpath:latest
  
  
 
