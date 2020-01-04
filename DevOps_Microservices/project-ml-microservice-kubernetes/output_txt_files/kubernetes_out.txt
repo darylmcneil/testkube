@@ -1,6 +1,0 @@
-<paste log output from Kubernetes-mediated prediction, here>
-$ kubectl port-forward pod/daryl-py-app2-9bc8c4b8d-4bt99 8000:80
-Forwarding from 127.0.0.1:8000 -> 80
-Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
-Handling connection for 8000
