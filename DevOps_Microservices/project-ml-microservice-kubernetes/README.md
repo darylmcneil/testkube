@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/darylmcneil/testkube.svg?style=svg)](https://circleci.com/gh/darylmcneil/testkube)
+[![CircleCI](https://circleci.com/gh/darylmcneil/testkube.svg?style=shield)](https://circleci.com/gh/darylmcneil/testkube)
 
 ## Project Overview
 
@@ -40,3 +41,22 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+Summary: Operationalize a machine learning microservice API
+         using docker and kubernetes.
+          1. Set up virtual environment and install dependencies via MakeFile "make setup"(to setup and activate virtual
+             evironment) and "make install" to install dependencies via requirements.txt file.
+          2. Containerize app.py file (building docker image) using your DockerFile and the "./run_docker.sh" via bash terminal CLI.
+          3. Deploy and run appy.py using your DockerFile and the CMD ["python","app.py"]
+          4. While the app is running in CLI terminal#1 open a new terminal and run "./ make_prediction.sh" via CLI#2.
+          5. Add logging statement to app.py and copy and paste results from CLI#1 into docker_out.txt.
+          6. Upload the docker image into your docker hub using "./upload_docker.sh" via the bash terminal CLI.
+          7. Install "MiniKube" 
+          8. Start kubernetes via "minikube start" command.
+          9. Once kubernetes cluster is up and running pull docker image from docker hub using "./run_kubernetes.sh" via bash CLI#1.
+          10. Once the image with your application is running on your kubernetes pods then open a new bash CLI#2 and 
+              run the "./make_prediction.sh" via bash CLI#2.
+          11. Copy and paste results from bash CLI#1 into kubernetes_out.txt.
+          12. Create an account with CIRCLECI (circleci.com) and choose the create with github option to connect all your repositories
+              with your CIRCLECI account.
+          13. Select the repository you wish to test and "Start Build"
+          14. Copy and paste success tag and/or shield in your "readme.md file.
