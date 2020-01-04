@@ -59,4 +59,5 @@ Summary: Operationalize a machine learning microservice API
           12. Create an account with CIRCLECI (circleci.com) and choose the create with github option to connect all your repositories
               with your CIRCLECI account.
           13. Select the repository you wish to test and "Start Build"
-          14. Copy and paste success tag and/or shield in your "readme.md file.
+          14. Copy and paste success tag and/or shield in your
+              "readme.md" file.          
