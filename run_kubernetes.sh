@@ -22,3 +22,5 @@ kubectl get pods
 kubectl expose deployment daryl-py-app2 --type=LoadBalancer --port=80 --target-port=8000 --name=dport1
 kubectl port-forward pod/mypod 8000:80
 
+# Copy the name of the Pod and run the command to see the logs 
+kubectl logs Name_Of_Pod
